@@ -13,13 +13,13 @@ import CoreMedia
 
 class CameraSession: AVCaptureSession {
 
-    private var frontCamera: AVCaptureDevice?
-    private var backCamera: AVCaptureDevice?
+    private var frontInput: AVCaptureInput!
+    private var backInput: AVCaptureInput!
 
     private var currentPosition = AVCaptureDevicePosition.Unspecified
 
     var hasFrontAndBackCamera: Bool {
-        return frontCamera != nil && backCamera != nil
+        return frontInput != nil && backInput != nil
     }
 
     lazy var previewLayer: AVCaptureVideoPreviewLayer = {
@@ -34,25 +34,39 @@ class CameraSession: AVCaptureSession {
         return output
     }()
 
-
     override init() {
         super.init()
 
-        sessionPreset = AVCaptureSessionPresetMedium
+        sessionPreset = AVCaptureSessionPresetPhoto
 
-        frontCamera = AVCaptureDevice.devices().filter {
+        let frontCamera = AVCaptureDevice.devices().filter {
             $0.hasMediaType(AVMediaTypeVideo) && $0.position == .Front
         }.first as? AVCaptureDevice
-
-        backCamera = AVCaptureDevice.devices().filter {
+        let backCamera = AVCaptureDevice.devices().filter {
             $0.hasMediaType(AVMediaTypeVideo) && $0.position == .Back
         }.first as? AVCaptureDevice
 
+        if let backCamera = backCamera, input = try? AVCaptureDeviceInput(device: backCamera) {
+
+            do {
+                try backCamera.lockForConfiguration()
+                backCamera.focusMode = .ContinuousAutoFocus
+                backCamera.unlockForConfiguration()
+            } catch {
+                print("Failed to lock back camera")
+            }
+
+            backInput = input
+        }
         if let frontCamera = frontCamera, input = try? AVCaptureDeviceInput(device: frontCamera) {
+            frontInput = input
+        }
+
+        if let input = frontInput {
             currentPosition = .Front
             addInput(input)
         }
-        else if let backCamera = backCamera, input = try? AVCaptureDeviceInput(device: backCamera) {
+        else if let input = backInput {
             currentPosition = .Back
             addInput(input)
         }
@@ -65,7 +79,13 @@ class CameraSession: AVCaptureSession {
     func switchPosition() {
         guard hasFrontAndBackCamera else { return }
 
+        let removing = currentPosition == .Back ? backInput : frontInput
+        let adding = currentPosition == .Back ? frontInput : backInput
 
+        removeInput(removing)
+        addInput(adding)
+
+        currentPosition = currentPosition == .Back ? .Front : .Back
     }
 
     func capturePhoto(handler: (image: UIImage) -> Void) {
@@ -84,7 +104,7 @@ class CameraSession: AVCaptureSession {
             return
         }
 
-        output.captureStillImageAsynchronouslyFromConnection(connection) { buffer, error in
+        output.captureStillImageAsynchronouslyFromConnection(connection) { [unowned self] buffer, error in
 
             if let pixelBuffer = CMSampleBufferGetImageBuffer(buffer) {
 
@@ -95,7 +115,9 @@ class CameraSession: AVCaptureSession {
                     width: CVPixelBufferGetWidth(pixelBuffer),
                     height: CVPixelBufferGetHeight(pixelBuffer)))
 
-                let uiImage = UIImage(CGImage: image, scale: 1.0, orientation: UIImageOrientation.LeftMirrored)
+                let orientation = self.currentPosition == .Front ? UIImageOrientation.LeftMirrored : UIImageOrientation.Right
+
+                let uiImage = UIImage(CGImage: image, scale: 1.0, orientation: orientation)
 
                 handler(image: uiImage)
             }

@@ -19,4 +19,8 @@ class EditViewController: UIViewController {
 
         imageView.image = image
     }
+
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
 }

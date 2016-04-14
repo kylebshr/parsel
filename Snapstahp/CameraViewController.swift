@@ -22,9 +22,14 @@ class CameraViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
 
-        let gesture = UITapGestureRecognizer(target: self, action: #selector(cameraTapped))
+        let singleGesture = UITapGestureRecognizer(target: self, action: #selector(cameraTapped))
+        let doubleGesture = UITapGestureRecognizer(target: self, action: #selector(doubleTapped))
 
-        view.addGestureRecognizer(gesture)
+        doubleGesture.numberOfTapsRequired = 2
+        singleGesture.requireGestureRecognizerToFail(doubleGesture)
+
+        view.addGestureRecognizer(singleGesture)
+        view.addGestureRecognizer(doubleGesture)
 
         session.previewLayer.frame = view.layer.bounds
     }
@@ -35,5 +40,15 @@ class CameraViewController: UIViewController {
             editVC.image = image
             self?.presentViewController(editVC, animated: false, completion: nil)
         }
+    }
+
+    @objc func doubleTapped() {
+        session.switchPosition()
+    }
+
+    @IBAction func unwind(segue: UIStoryboardSegue) { }
+
+    override func prefersStatusBarHidden() -> Bool {
+        return true
     }
 }

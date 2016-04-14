@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Snapstahp/CameraViewController.swift"
-            timestampString = "482346284.06309"
+            timestampString = "482366024.124125"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "cameraTapped()"
             landmarkType = "5">
          </BreakpointContent>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Snapstahp/CameraSession.swift"
-            timestampString = "482347456.469128"
+            filePath = "Snapstahp/CameraViewController.swift"
+            timestampString = "482366024.124125"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
-            landmarkName = "capturePhoto(_:)"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "doubleTapped()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,12 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Snapstahp/CameraSession.swift"
-            timestampString = "482347456.469128"
+            timestampString = "482366893.492867"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
-            landmarkName = "capturePhoto(_:)"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "switchPosition()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
