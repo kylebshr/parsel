@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E6A50134AB6ADD665A468BE7D41C1EDB"
-               BuildableName = "Rswift.framework"
-               BlueprintName = "R.swift.Library"
+               BlueprintIdentifier = "9FE0ED908A0DE229F5D13436A3F68099"
+               BuildableName = "Pods_parselUITests.framework"
+               BlueprintName = "Pods-parselUITests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E6A50134AB6ADD665A468BE7D41C1EDB"
-            BuildableName = "Rswift.framework"
-            BlueprintName = "R.swift.Library"
+            BlueprintIdentifier = "9FE0ED908A0DE229F5D13436A3F68099"
+            BuildableName = "Pods_parselUITests.framework"
+            BlueprintName = "Pods-parselUITests"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

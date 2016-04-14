@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Snapstahp.xcscheme</key>
+		<key>Pods-parsel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-SnapstahpTests.xcscheme</key>
+		<key>Pods-parselTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-SnapstahpUITests.xcscheme</key>
+		<key>Pods-parselUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,22 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5DE23F019BDD77A8709CC4132A35836A</key>
+		<key>7FF5774A9275ECD6746675CDF321493D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9FA279B8D57BD7B406FB94AA27F79356</key>
+		<key>85CDB6B9ECAB798727F58A7CB74C495E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F2AD49D7D9A1CE21D863110580C886B0</key>
+		<key>9FE0ED908A0DE229F5D13436A3F68099</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F4CC0F80C5F02742E15430E6D9305200</key>
+		<key>E6A50134AB6ADD665A468BE7D41C1EDB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

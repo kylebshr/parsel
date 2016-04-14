@@ -25,16 +25,8 @@ struct R: Rswift.Validatable {
     private init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 1 images.
+  /// This `R.image` struct is generated, and contains static references to 0 images.
   struct image {
-    /// Image `karma`.
-    static let karma = ImageResource(bundle: _R.hostingBundle, name: "karma")
-    
-    /// `UIImage(named: "karma", bundle: ..., traitCollection: ...)`
-    static func karma(compatibleWithTraitCollection traitCollection: UITraitCollection? = nil) -> UIImage? {
-      return UIImage(resource: R.image.karma, compatibleWithTraitCollection: traitCollection)
-    }
-    
     private init() {}
   }
   
@@ -85,7 +77,7 @@ struct R: Rswift.Validatable {
 }
 
 struct _R: Rswift.Validatable {
-  static let hostingBundle = NSBundle(identifier: "com.kylebashour.Snapstahp") ?? NSBundle.mainBundle()
+  static let hostingBundle = NSBundle(identifier: "com.kylebashour.parsel") ?? NSBundle.mainBundle()
   
   static func validate() throws {
     try storyboard.validate()

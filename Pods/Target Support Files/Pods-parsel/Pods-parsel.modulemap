@@ -1,0 +1,6 @@
+framework module Pods_parsel {
+  umbrella header "Pods-parsel-umbrella.h"
+
+  export *
+  module * { export * }
+}
