@@ -1,0 +1,923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A45D0E22A48A7ADF5083DA4999DCC8 /* Pods-Snapstahp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF1E6B1A5A515A8F9F6F95830D6719B /* Pods-Snapstahp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A31FA1C0559575478821274BD34E557 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958127F729E804026B24C598C12886F1 /* UIStoryboard+StoryboardViewControllerResource.swift */; };
+		1258B4387C6F32135ADC9E4E2AD6546A /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C954823C6A5C863425D117A9DD9D269 /* Identifier.swift */; };
+		1900FF2A29CFF2844EDD1D1D93ADB007 /* Pods-SnapstahpTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB06CAB5D20F0A6702614DFECCC9F853 /* Pods-SnapstahpTests-dummy.m */; };
+		191019AC2D2CC70C7D135F957A3413C3 /* NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724C7B2B91B16C50E45DE6DFCBEF370 /* NibResource.swift */; };
+		191E8DC1AFCFE984F55DDAECE1D8BE3A /* Pods-SnapstahpUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1449BAE5FB5E63054450F881F712E7D5 /* Pods-SnapstahpUITests-dummy.m */; };
+		1B6BAF9934CE3ADC7C3D151C02123B62 /* UIStoryboard+StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142F56BE338320BA6A067AC50078058C /* UIStoryboard+StoryboardResource.swift */; };
+		1E76003D74605A6403E3F2AE4DBA9180 /* Pods-SnapstahpTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA09DF72B14B5F39E7F2CCCC821550A6 /* Pods-SnapstahpTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F9D89F7E6543F804A6062A4F1CD6862 /* StoryboardResourceWithInitialController+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BBBAE240C6841086BF560CF0912DFD /* StoryboardResourceWithInitialController+UIKit.swift */; };
+		1FCD63C39B1AB51BD371DC6F486CC42F /* R.swift.Library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4EE0E8882621182F0CC26E0ED6FCEE /* R.swift.Library-dummy.m */; };
+		20EF2B10A5688A71735387C97FBD9F84 /* StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FDDFE9E9AC76D1BA55C49F846E092E /* StoryboardViewControllerResource.swift */; };
+		21F5FABCB84CD59D106DF10C5EFCF138 /* UIViewController+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838F4E618AD7E517C75F48B2302CAC66 /* UIViewController+NibResource.swift */; };
+		3AC1526766AB64D0BAE37AD672A1FC25 /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59D89D770B22CEF7AC1E3EC84B00008 /* UICollectionView+ReuseIdentifierProtocol.swift */; };
+		4EAD7C396AC4F4AF0A91ECD46D2708C1 /* StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96091C1E8314CF3CBA7C7E5D102EE06D /* StoryboardSegueIdentifierProtocol.swift */; };
+		5C192952A631F347E42AB728E566BBCF /* ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB42EF99B1C70E77E9C52134CE283C /* ReuseIdentifierProtocol.swift */; };
+		6013BC8F8A1BA1A201A1EC4338A75511 /* Pods-SnapstahpUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74BDD1CC0DB3BDD5EFB24A521E9AEE50 /* Pods-SnapstahpUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		654CC95C4BE3DE79DF05164919B999B0 /* Pods-Snapstahp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8189869FE4455121344A524C479C67 /* Pods-Snapstahp-dummy.m */; };
+		6C06C7B324FDBA55140F5193977F91BF /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EC10DF9C9E19875DE987AD003B4CAA /* UIViewController+StoryboardSegueIdentifierProtocol.swift */; };
+		6DCE4EAD87E728037D4567B55A156936 /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CD5F446ADA2D62B8AD3711FB5129AF /* ImageResource.swift */; };
+		742F99ED38C29545A2F97657B4012216 /* UIFont+FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3752BE4C853BF842C53CC4390F109D1 /* UIFont+FontResource.swift */; };
+		7B23EC487F6EAE01FB47EA87A2A428B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		7B481DE1FAB61DA11207B3E5850EF957 /* R.swift.Library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B00750D04457CD535DAEA3B003D8E87 /* R.swift.Library-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B9A8CB6F53ECB720F59828750145EF7 /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B2F9BC7F77C956933B3A7208E8013 /* Validatable.swift */; };
+		8C233EB794FEDE993930FCEC7E385C98 /* NibResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1EF6569928F5A19A8D2C34D6D70BF /* NibResource+UIKit.swift */; };
+		94D760C3294D908473316537BB1C7E19 /* NSBundle+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF94956C6C59EF5C46BC4D05370E7401 /* NSBundle+FileResource.swift */; };
+		9F7703A978F80DF89E886AC438E50C76 /* UINib+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B0522013E4AF0F72B81D219EF79FF /* UINib+NibResource.swift */; };
+		AFF3550F49724634F977045F72AEBF46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		B1D65B7419644EE4AF8CB91B34A4CC2C /* UIImage+ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D811BBA6E3EB3E84E590F66DFEB19E /* UIImage+ImageResource.swift */; };
+		B76FBEADFC27D2CBBB20FE0DFD3E8AB2 /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C98BBD34551A8E02A612A6690A42F0 /* FileResource.swift */; };
+		BA5B2C7BBEF1FC7B7F5DB3D0D6880A82 /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4776D0B4D84BC6270D19C86C45214 /* FontResource.swift */; };
+		CD9AE0D49379281AD5E9BA5A7B21C697 /* NSData+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744FFD6EAEE422EA58EDCAB9036A4694 /* NSData+FileResource.swift */; };
+		D1F55FDC2CAB8CF250F6CF3F5740AA81 /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A16618CA8D00BD5C58000FFF432A3B /* ColorResource.swift */; };
+		D5B432349BBDE1D5AB40F42D0E4CBCC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		EB8CFCD9A165759CA571EABD934BEAED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		F0AC720CED712E5EC87F8E501D026F8E /* StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C397DEE869721B74EF60347B6EA66F /* StoryboardResource.swift */; };
+		F97BE072CA7860C48A1F62C2880FC8CC /* UITableView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE99D5659F68A7367C1C8C2B5A8978A /* UITableView+ReuseIdentifierProtocol.swift */; };
+		FD9C0952468F66221C1F01F539A9DB11 /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B4976DFA018EF401FF8B7DB940C73 /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4355751EA8E49139FA2F2ABD1E2E4DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2AD49D7D9A1CE21D863110580C886B0;
+			remoteInfo = R.swift.Library;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D811BBA6E3EB3E84E590F66DFEB19E /* UIImage+ImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+ImageResource.swift"; path = "Library/UIKit/UIImage+ImageResource.swift"; sourceTree = "<group>"; };
+		0DA05D664D2A597C1C8A0B032E15A5FC /* Pods-SnapstahpUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SnapstahpUITests.modulemap"; sourceTree = "<group>"; };
+		108FD5D31F9F36182E54C9CE5F6D58D1 /* Pods-Snapstahp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snapstahp.debug.xcconfig"; sourceTree = "<group>"; };
+		142F56BE338320BA6A067AC50078058C /* UIStoryboard+StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+StoryboardResource.swift"; path = "Library/UIKit/UIStoryboard+StoryboardResource.swift"; sourceTree = "<group>"; };
+		143B5348C7BF6D7DE4D4430C30AAA1CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1449BAE5FB5E63054450F881F712E7D5 /* Pods-SnapstahpUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SnapstahpUITests-dummy.m"; sourceTree = "<group>"; };
+		1AB97BA888DC18514318E2C51CB6D2F1 /* Pods-Snapstahp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Snapstahp.modulemap"; sourceTree = "<group>"; };
+		1C378E0CB442915A7D13AE55BE96D681 /* Pods-Snapstahp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snapstahp-frameworks.sh"; sourceTree = "<group>"; };
+		207EBD1F1120C911C0A3D35B04B7CB56 /* Pods-SnapstahpTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnapstahpTests-frameworks.sh"; sourceTree = "<group>"; };
+		22CD5F446ADA2D62B8AD3711FB5129AF /* ImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageResource.swift; path = Library/Core/ImageResource.swift; sourceTree = "<group>"; };
+		23754A9D6B727812ED929346A476E70D /* Pods_Snapstahp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapstahp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BEB50DC3592C6EEB0E94840F5D511A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287B2F9BC7F77C956933B3A7208E8013 /* Validatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validatable.swift; path = Library/Core/Validatable.swift; sourceTree = "<group>"; };
+		2B00750D04457CD535DAEA3B003D8E87 /* R.swift.Library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift.Library-umbrella.h"; sourceTree = "<group>"; };
+		2ED70FDD7F37D3D6EE32D96B33BF52DE /* Pods-SnapstahpTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnapstahpTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		31C397DEE869721B74EF60347B6EA66F /* StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardResource.swift; path = Library/Core/StoryboardResource.swift; sourceTree = "<group>"; };
+		31EC10DF9C9E19875DE987AD003B4CAA /* UIViewController+StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+StoryboardSegueIdentifierProtocol.swift"; path = "Library/UIKit/UIViewController+StoryboardSegueIdentifierProtocol.swift"; sourceTree = "<group>"; };
+		397B924B5F94F1A6361D69C033A0D157 /* Pods-Snapstahp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snapstahp.release.xcconfig"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3AB4873C38231463D857669CB6C9CFF1 /* Pods-Snapstahp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Snapstahp-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CF8F848DC079409BB18018AD4F0D6C4 /* Pods-Snapstahp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Snapstahp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F7C8F7304F9FEA03356799A0B728894 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE99D5659F68A7367C1C8C2B5A8978A /* UITableView+ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+ReuseIdentifierProtocol.swift"; path = "Library/UIKit/UITableView+ReuseIdentifierProtocol.swift"; sourceTree = "<group>"; };
+		5F7753AD557714056677E0D60A886A90 /* Pods_SnapstahpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapstahpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A0EB1D4EB5794C79EFB6F0A5C1E4A9 /* Pods-Snapstahp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snapstahp-resources.sh"; sourceTree = "<group>"; };
+		68FDDFE9E9AC76D1BA55C49F846E092E /* StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardViewControllerResource.swift; path = Library/Core/StoryboardViewControllerResource.swift; sourceTree = "<group>"; };
+		6C954823C6A5C863425D117A9DD9D269 /* Identifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identifier.swift; path = Library/Core/Identifier.swift; sourceTree = "<group>"; };
+		7289EAC7E98D2A32CCE2653367FFF83F /* Pods-SnapstahpUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnapstahpUITests-frameworks.sh"; sourceTree = "<group>"; };
+		744FFD6EAEE422EA58EDCAB9036A4694 /* NSData+FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSData+FileResource.swift"; path = "Library/Foundation/NSData+FileResource.swift"; sourceTree = "<group>"; };
+		74BDD1CC0DB3BDD5EFB24A521E9AEE50 /* Pods-SnapstahpUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnapstahpUITests-umbrella.h"; sourceTree = "<group>"; };
+		767393DC1FB872F337B019D164680846 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		793B4976DFA018EF401FF8B7DB940C73 /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TypedStoryboardSegueInfo+UIStoryboardSegue.swift"; path = "Library/UIKit/TypedStoryboardSegueInfo+UIStoryboardSegue.swift"; sourceTree = "<group>"; };
+		7A9201BC1E4AF14BFEC7556E986E90D8 /* R.swift.Library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.Library.xcconfig; sourceTree = "<group>"; };
+		80351022CF0ECEF6054C5744A4A3464A /* Pods-SnapstahpUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnapstahpUITests-resources.sh"; sourceTree = "<group>"; };
+		8212DC12212F43B669CB7839E610978B /* Pods-SnapstahpTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnapstahpTests-resources.sh"; sourceTree = "<group>"; };
+		838F4E618AD7E517C75F48B2302CAC66 /* UIViewController+NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+NibResource.swift"; path = "Library/UIKit/UIViewController+NibResource.swift"; sourceTree = "<group>"; };
+		8640050EFF6DFCF01E35199652FE29C8 /* Pods-SnapstahpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapstahpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		87CEEB79E94585A4C03CBEEC29DDD9A4 /* Pods-SnapstahpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapstahpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8CE6C3FE1C7365B46E076F37A882118A /* Pods-SnapstahpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapstahpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		958127F729E804026B24C598C12886F1 /* UIStoryboard+StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+StoryboardViewControllerResource.swift"; path = "Library/UIKit/UIStoryboard+StoryboardViewControllerResource.swift"; sourceTree = "<group>"; };
+		96091C1E8314CF3CBA7C7E5D102EE06D /* StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardSegueIdentifierProtocol.swift; path = Library/Core/StoryboardSegueIdentifierProtocol.swift; sourceTree = "<group>"; };
+		963749C98EA16B7959484545E766F744 /* Rswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E4EE0E8882621182F0CC26E0ED6FCEE /* R.swift.Library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "R.swift.Library-dummy.m"; sourceTree = "<group>"; };
+		9E835E2CEA378D2BC0C66D5512F95730 /* Pods-SnapstahpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapstahpTests.release.xcconfig"; sourceTree = "<group>"; };
+		ADCB42EF99B1C70E77E9C52134CE283C /* ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReuseIdentifierProtocol.swift; path = Library/Core/ReuseIdentifierProtocol.swift; sourceTree = "<group>"; };
+		AFDB0B3C07BD71EF97AE1ECDB5D46F65 /* R.swift.Library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift.Library-prefix.pch"; sourceTree = "<group>"; };
+		BA8189869FE4455121344A524C479C67 /* Pods-Snapstahp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Snapstahp-dummy.m"; sourceTree = "<group>"; };
+		BB0E47854004FE7F3BD3D2B7FB10CA5E /* Pods-SnapstahpTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SnapstahpTests.modulemap"; sourceTree = "<group>"; };
+		BF2B0522013E4AF0F72B81D219EF79FF /* UINib+NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINib+NibResource.swift"; path = "Library/UIKit/UINib+NibResource.swift"; sourceTree = "<group>"; };
+		BF94956C6C59EF5C46BC4D05370E7401 /* NSBundle+FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+FileResource.swift"; path = "Library/Foundation/NSBundle+FileResource.swift"; sourceTree = "<group>"; };
+		C0C98BBD34551A8E02A612A6690A42F0 /* FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileResource.swift; path = Library/Core/FileResource.swift; sourceTree = "<group>"; };
+		C59D89D770B22CEF7AC1E3EC84B00008 /* UICollectionView+ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+ReuseIdentifierProtocol.swift"; path = "Library/UIKit/UICollectionView+ReuseIdentifierProtocol.swift"; sourceTree = "<group>"; };
+		CB06CAB5D20F0A6702614DFECCC9F853 /* Pods-SnapstahpTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SnapstahpTests-dummy.m"; sourceTree = "<group>"; };
+		D0A091FE2943B89661A553FBE363430F /* Pods-SnapstahpTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnapstahpTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1A16618CA8D00BD5C58000FFF432A3B /* ColorResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorResource.swift; path = Library/Core/ColorResource.swift; sourceTree = "<group>"; };
+		D3752BE4C853BF842C53CC4390F109D1 /* UIFont+FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+FontResource.swift"; path = "Library/UIKit/UIFont+FontResource.swift"; sourceTree = "<group>"; };
+		DA09DF72B14B5F39E7F2CCCC821550A6 /* Pods-SnapstahpTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnapstahpTests-umbrella.h"; sourceTree = "<group>"; };
+		DAF1E6B1A5A515A8F9F6F95830D6719B /* Pods-Snapstahp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Snapstahp-umbrella.h"; sourceTree = "<group>"; };
+		E5C1EF6569928F5A19A8D2C34D6D70BF /* NibResource+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NibResource+UIKit.swift"; path = "Library/UIKit/NibResource+UIKit.swift"; sourceTree = "<group>"; };
+		E724C7B2B91B16C50E45DE6DFCBEF370 /* NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibResource.swift; path = Library/Core/NibResource.swift; sourceTree = "<group>"; };
+		E7BBBAE240C6841086BF560CF0912DFD /* StoryboardResourceWithInitialController+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StoryboardResourceWithInitialController+UIKit.swift"; path = "Library/UIKit/StoryboardResourceWithInitialController+UIKit.swift"; sourceTree = "<group>"; };
+		EAA990B39F4083E4B4130E8925C20018 /* Pods-SnapstahpUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnapstahpUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EAD9B133FA81D061FB393406796F3A9D /* Pods_SnapstahpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapstahpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5CBFDD7602876F4F343AD979D98F24 /* Pods-SnapstahpUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnapstahpUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF64FF34BFFC93370D88EF0A7A296F80 /* R.swift.Library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = R.swift.Library.modulemap; sourceTree = "<group>"; };
+		F3C4776D0B4D84BC6270D19C86C45214 /* FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontResource.swift; path = Library/Core/FontResource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3230BB1A4506F5E9A70B8792D712E246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF3550F49724634F977045F72AEBF46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791084C6892BF8D164F70730777199B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8CFCD9A165759CA571EABD934BEAED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B49D236AF47A4A8D8BCEFDFB194DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B432349BBDE1D5AB40F42D0E4CBCC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3BCDC00581E09EB8BF75A7E710ADAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B23EC487F6EAE01FB47EA87A2A428B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095339378DE062A946072378C08E8E0C /* Pods-Snapstahp */ = {
+			isa = PBXGroup;
+			children = (
+				767393DC1FB872F337B019D164680846 /* Info.plist */,
+				1AB97BA888DC18514318E2C51CB6D2F1 /* Pods-Snapstahp.modulemap */,
+				3CF8F848DC079409BB18018AD4F0D6C4 /* Pods-Snapstahp-acknowledgements.markdown */,
+				3AB4873C38231463D857669CB6C9CFF1 /* Pods-Snapstahp-acknowledgements.plist */,
+				BA8189869FE4455121344A524C479C67 /* Pods-Snapstahp-dummy.m */,
+				1C378E0CB442915A7D13AE55BE96D681 /* Pods-Snapstahp-frameworks.sh */,
+				64A0EB1D4EB5794C79EFB6F0A5C1E4A9 /* Pods-Snapstahp-resources.sh */,
+				DAF1E6B1A5A515A8F9F6F95830D6719B /* Pods-Snapstahp-umbrella.h */,
+				108FD5D31F9F36182E54C9CE5F6D58D1 /* Pods-Snapstahp.debug.xcconfig */,
+				397B924B5F94F1A6361D69C033A0D157 /* Pods-Snapstahp.release.xcconfig */,
+			);
+			name = "Pods-Snapstahp";
+			path = "Target Support Files/Pods-Snapstahp";
+			sourceTree = "<group>";
+		};
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		162D0474A3D6BE5BABFAE1735C5FB515 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				095339378DE062A946072378C08E8E0C /* Pods-Snapstahp */,
+				9172D1F6DD73D613D670D6B090EFADFD /* Pods-SnapstahpTests */,
+				7F6163657553E70D452C32AD8CA1B8FA /* Pods-SnapstahpUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		23769F1A168F895382DB79AA2669A57E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F7C8F7304F9FEA03356799A0B728894 /* Info.plist */,
+				EF64FF34BFFC93370D88EF0A7A296F80 /* R.swift.Library.modulemap */,
+				7A9201BC1E4AF14BFEC7556E986E90D8 /* R.swift.Library.xcconfig */,
+				9E4EE0E8882621182F0CC26E0ED6FCEE /* R.swift.Library-dummy.m */,
+				AFDB0B3C07BD71EF97AE1ECDB5D46F65 /* R.swift.Library-prefix.pch */,
+				2B00750D04457CD535DAEA3B003D8E87 /* R.swift.Library-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/R.swift.Library";
+			sourceTree = "<group>";
+		};
+		3FEAA747D57FF8D41108AD8BD018F3E1 /* R.swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = R.swift;
+			sourceTree = "<group>";
+		};
+		4049F5EBBFADF813685E0C92C82FB452 /* R.swift.Library */ = {
+			isa = PBXGroup;
+			children = (
+				D1A16618CA8D00BD5C58000FFF432A3B /* ColorResource.swift */,
+				C0C98BBD34551A8E02A612A6690A42F0 /* FileResource.swift */,
+				F3C4776D0B4D84BC6270D19C86C45214 /* FontResource.swift */,
+				6C954823C6A5C863425D117A9DD9D269 /* Identifier.swift */,
+				22CD5F446ADA2D62B8AD3711FB5129AF /* ImageResource.swift */,
+				E724C7B2B91B16C50E45DE6DFCBEF370 /* NibResource.swift */,
+				E5C1EF6569928F5A19A8D2C34D6D70BF /* NibResource+UIKit.swift */,
+				BF94956C6C59EF5C46BC4D05370E7401 /* NSBundle+FileResource.swift */,
+				744FFD6EAEE422EA58EDCAB9036A4694 /* NSData+FileResource.swift */,
+				ADCB42EF99B1C70E77E9C52134CE283C /* ReuseIdentifierProtocol.swift */,
+				31C397DEE869721B74EF60347B6EA66F /* StoryboardResource.swift */,
+				E7BBBAE240C6841086BF560CF0912DFD /* StoryboardResourceWithInitialController+UIKit.swift */,
+				96091C1E8314CF3CBA7C7E5D102EE06D /* StoryboardSegueIdentifierProtocol.swift */,
+				68FDDFE9E9AC76D1BA55C49F846E092E /* StoryboardViewControllerResource.swift */,
+				793B4976DFA018EF401FF8B7DB940C73 /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */,
+				C59D89D770B22CEF7AC1E3EC84B00008 /* UICollectionView+ReuseIdentifierProtocol.swift */,
+				D3752BE4C853BF842C53CC4390F109D1 /* UIFont+FontResource.swift */,
+				03D811BBA6E3EB3E84E590F66DFEB19E /* UIImage+ImageResource.swift */,
+				BF2B0522013E4AF0F72B81D219EF79FF /* UINib+NibResource.swift */,
+				142F56BE338320BA6A067AC50078058C /* UIStoryboard+StoryboardResource.swift */,
+				958127F729E804026B24C598C12886F1 /* UIStoryboard+StoryboardViewControllerResource.swift */,
+				4CE99D5659F68A7367C1C8C2B5A8978A /* UITableView+ReuseIdentifierProtocol.swift */,
+				838F4E618AD7E517C75F48B2302CAC66 /* UIViewController+NibResource.swift */,
+				31EC10DF9C9E19875DE987AD003B4CAA /* UIViewController+StoryboardSegueIdentifierProtocol.swift */,
+				287B2F9BC7F77C956933B3A7208E8013 /* Validatable.swift */,
+				23769F1A168F895382DB79AA2669A57E /* Support Files */,
+			);
+			path = R.swift.Library;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				ABD36007EC3DAD31B3149F6E2977CF13 /* Pods */,
+				EDB6BDF2F3DF4697812D342D59653A1D /* Products */,
+				162D0474A3D6BE5BABFAE1735C5FB515 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F6163657553E70D452C32AD8CA1B8FA /* Pods-SnapstahpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				143B5348C7BF6D7DE4D4430C30AAA1CA /* Info.plist */,
+				0DA05D664D2A597C1C8A0B032E15A5FC /* Pods-SnapstahpUITests.modulemap */,
+				EB5CBFDD7602876F4F343AD979D98F24 /* Pods-SnapstahpUITests-acknowledgements.markdown */,
+				EAA990B39F4083E4B4130E8925C20018 /* Pods-SnapstahpUITests-acknowledgements.plist */,
+				1449BAE5FB5E63054450F881F712E7D5 /* Pods-SnapstahpUITests-dummy.m */,
+				7289EAC7E98D2A32CCE2653367FFF83F /* Pods-SnapstahpUITests-frameworks.sh */,
+				80351022CF0ECEF6054C5744A4A3464A /* Pods-SnapstahpUITests-resources.sh */,
+				74BDD1CC0DB3BDD5EFB24A521E9AEE50 /* Pods-SnapstahpUITests-umbrella.h */,
+				8CE6C3FE1C7365B46E076F37A882118A /* Pods-SnapstahpUITests.debug.xcconfig */,
+				87CEEB79E94585A4C03CBEEC29DDD9A4 /* Pods-SnapstahpUITests.release.xcconfig */,
+			);
+			name = "Pods-SnapstahpUITests";
+			path = "Target Support Files/Pods-SnapstahpUITests";
+			sourceTree = "<group>";
+		};
+		9172D1F6DD73D613D670D6B090EFADFD /* Pods-SnapstahpTests */ = {
+			isa = PBXGroup;
+			children = (
+				27BEB50DC3592C6EEB0E94840F5D511A /* Info.plist */,
+				BB0E47854004FE7F3BD3D2B7FB10CA5E /* Pods-SnapstahpTests.modulemap */,
+				D0A091FE2943B89661A553FBE363430F /* Pods-SnapstahpTests-acknowledgements.markdown */,
+				2ED70FDD7F37D3D6EE32D96B33BF52DE /* Pods-SnapstahpTests-acknowledgements.plist */,
+				CB06CAB5D20F0A6702614DFECCC9F853 /* Pods-SnapstahpTests-dummy.m */,
+				207EBD1F1120C911C0A3D35B04B7CB56 /* Pods-SnapstahpTests-frameworks.sh */,
+				8212DC12212F43B669CB7839E610978B /* Pods-SnapstahpTests-resources.sh */,
+				DA09DF72B14B5F39E7F2CCCC821550A6 /* Pods-SnapstahpTests-umbrella.h */,
+				8640050EFF6DFCF01E35199652FE29C8 /* Pods-SnapstahpTests.debug.xcconfig */,
+				9E835E2CEA378D2BC0C66D5512F95730 /* Pods-SnapstahpTests.release.xcconfig */,
+			);
+			name = "Pods-SnapstahpTests";
+			path = "Target Support Files/Pods-SnapstahpTests";
+			sourceTree = "<group>";
+		};
+		ABD36007EC3DAD31B3149F6E2977CF13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FEAA747D57FF8D41108AD8BD018F3E1 /* R.swift */,
+				4049F5EBBFADF813685E0C92C82FB452 /* R.swift.Library */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDB6BDF2F3DF4697812D342D59653A1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23754A9D6B727812ED929346A476E70D /* Pods_Snapstahp.framework */,
+				EAD9B133FA81D061FB393406796F3A9D /* Pods_SnapstahpTests.framework */,
+				5F7753AD557714056677E0D60A886A90 /* Pods_SnapstahpUITests.framework */,
+				963749C98EA16B7959484545E766F744 /* Rswift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68BDCD27CE15B69FA4C84058E84E4426 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B481DE1FAB61DA11207B3E5850EF957 /* R.swift.Library-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938E1D8A5820F99A5FF4D5B5A2078807 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6013BC8F8A1BA1A201A1EC4338A75511 /* Pods-SnapstahpUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D131BB44FC7258BB13640A70DDD38CD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E76003D74605A6403E3F2AE4DBA9180 /* Pods-SnapstahpTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BCDB193A9706C09DE16CCEDD796A56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A45D0E22A48A7ADF5083DA4999DCC8 /* Pods-Snapstahp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5DE23F019BDD77A8709CC4132A35836A /* Pods-Snapstahp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C28154A0842AC5890D8D2517206E7B /* Build configuration list for PBXNativeTarget "Pods-Snapstahp" */;
+			buildPhases = (
+				B924D173D0E75651EAA6841DF17A222A /* Sources */,
+				A9B49D236AF47A4A8D8BCEFDFB194DF0 /* Frameworks */,
+				F6BCDB193A9706C09DE16CCEDD796A56 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				563FB13F8239BC9A1AF306351AB3C394 /* PBXTargetDependency */,
+			);
+			name = "Pods-Snapstahp";
+			productName = "Pods-Snapstahp";
+			productReference = 23754A9D6B727812ED929346A476E70D /* Pods_Snapstahp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FA279B8D57BD7B406FB94AA27F79356 /* Pods-SnapstahpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3389C59FAF7C282A330AFEF70604FAE /* Build configuration list for PBXNativeTarget "Pods-SnapstahpUITests" */;
+			buildPhases = (
+				C3693C557C0B9A6E7CDA2F7B2F7AA8AE /* Sources */,
+				CB3BCDC00581E09EB8BF75A7E710ADAC /* Frameworks */,
+				938E1D8A5820F99A5FF4D5B5A2078807 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SnapstahpUITests";
+			productName = "Pods-SnapstahpUITests";
+			productReference = 5F7753AD557714056677E0D60A886A90 /* Pods_SnapstahpUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2AD49D7D9A1CE21D863110580C886B0 /* R.swift.Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E750403F4496B3174CCE5D6168328060 /* Build configuration list for PBXNativeTarget "R.swift.Library" */;
+			buildPhases = (
+				B0E5274B25D521A7B4D22E844975351D /* Sources */,
+				3230BB1A4506F5E9A70B8792D712E246 /* Frameworks */,
+				68BDCD27CE15B69FA4C84058E84E4426 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = R.swift.Library;
+			productName = R.swift.Library;
+			productReference = 963749C98EA16B7959484545E766F744 /* Rswift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4CC0F80C5F02742E15430E6D9305200 /* Pods-SnapstahpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E6A5B07A5C93FE3B0C309C2E965E4E6 /* Build configuration list for PBXNativeTarget "Pods-SnapstahpTests" */;
+			buildPhases = (
+				8617670868F9D4A4C5B42EB94050A56C /* Sources */,
+				791084C6892BF8D164F70730777199B3 /* Frameworks */,
+				D131BB44FC7258BB13640A70DDD38CD6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SnapstahpTests";
+			productName = "Pods-SnapstahpTests";
+			productReference = EAD9B133FA81D061FB393406796F3A9D /* Pods_SnapstahpTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EDB6BDF2F3DF4697812D342D59653A1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DE23F019BDD77A8709CC4132A35836A /* Pods-Snapstahp */,
+				F4CC0F80C5F02742E15430E6D9305200 /* Pods-SnapstahpTests */,
+				9FA279B8D57BD7B406FB94AA27F79356 /* Pods-SnapstahpUITests */,
+				F2AD49D7D9A1CE21D863110580C886B0 /* R.swift.Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8617670868F9D4A4C5B42EB94050A56C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1900FF2A29CFF2844EDD1D1D93ADB007 /* Pods-SnapstahpTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E5274B25D521A7B4D22E844975351D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F55FDC2CAB8CF250F6CF3F5740AA81 /* ColorResource.swift in Sources */,
+				B76FBEADFC27D2CBBB20FE0DFD3E8AB2 /* FileResource.swift in Sources */,
+				BA5B2C7BBEF1FC7B7F5DB3D0D6880A82 /* FontResource.swift in Sources */,
+				1258B4387C6F32135ADC9E4E2AD6546A /* Identifier.swift in Sources */,
+				6DCE4EAD87E728037D4567B55A156936 /* ImageResource.swift in Sources */,
+				8C233EB794FEDE993930FCEC7E385C98 /* NibResource+UIKit.swift in Sources */,
+				191019AC2D2CC70C7D135F957A3413C3 /* NibResource.swift in Sources */,
+				94D760C3294D908473316537BB1C7E19 /* NSBundle+FileResource.swift in Sources */,
+				CD9AE0D49379281AD5E9BA5A7B21C697 /* NSData+FileResource.swift in Sources */,
+				1FCD63C39B1AB51BD371DC6F486CC42F /* R.swift.Library-dummy.m in Sources */,
+				5C192952A631F347E42AB728E566BBCF /* ReuseIdentifierProtocol.swift in Sources */,
+				F0AC720CED712E5EC87F8E501D026F8E /* StoryboardResource.swift in Sources */,
+				1F9D89F7E6543F804A6062A4F1CD6862 /* StoryboardResourceWithInitialController+UIKit.swift in Sources */,
+				4EAD7C396AC4F4AF0A91ECD46D2708C1 /* StoryboardSegueIdentifierProtocol.swift in Sources */,
+				20EF2B10A5688A71735387C97FBD9F84 /* StoryboardViewControllerResource.swift in Sources */,
+				FD9C0952468F66221C1F01F539A9DB11 /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */,
+				3AC1526766AB64D0BAE37AD672A1FC25 /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */,
+				742F99ED38C29545A2F97657B4012216 /* UIFont+FontResource.swift in Sources */,
+				B1D65B7419644EE4AF8CB91B34A4CC2C /* UIImage+ImageResource.swift in Sources */,
+				9F7703A978F80DF89E886AC438E50C76 /* UINib+NibResource.swift in Sources */,
+				1B6BAF9934CE3ADC7C3D151C02123B62 /* UIStoryboard+StoryboardResource.swift in Sources */,
+				0A31FA1C0559575478821274BD34E557 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */,
+				F97BE072CA7860C48A1F62C2880FC8CC /* UITableView+ReuseIdentifierProtocol.swift in Sources */,
+				21F5FABCB84CD59D106DF10C5EFCF138 /* UIViewController+NibResource.swift in Sources */,
+				6C06C7B324FDBA55140F5193977F91BF /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */,
+				7B9A8CB6F53ECB720F59828750145EF7 /* Validatable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B924D173D0E75651EAA6841DF17A222A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654CC95C4BE3DE79DF05164919B999B0 /* Pods-Snapstahp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3693C557C0B9A6E7CDA2F7B2F7AA8AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191E8DC1AFCFE984F55DDAECE1D8BE3A /* Pods-SnapstahpUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		563FB13F8239BC9A1AF306351AB3C394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = R.swift.Library;
+			target = F2AD49D7D9A1CE21D863110580C886B0 /* R.swift.Library */;
+			targetProxy = 4355751EA8E49139FA2F2ABD1E2E4DAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F3AF2903DCFD6E84C0B8E0062067437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A9201BC1E4AF14BFEC7556E986E90D8 /* R.swift.Library.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift.Library/R.swift.Library-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/R.swift.Library/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/R.swift.Library/R.swift.Library.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Rswift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2CE16AC72762C01C5DC595053F1F2EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4174516B9D21CF78C02BEDDAD291DDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E835E2CEA378D2BC0C66D5512F95730 /* Pods-SnapstahpTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SnapstahpTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SnapstahpTests/Pods-SnapstahpTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SnapstahpTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A5CB9E92277C942B998585D57ED942C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397B924B5F94F1A6361D69C033A0D157 /* Pods-Snapstahp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Snapstahp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Snapstahp/Pods-Snapstahp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Snapstahp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		607094D63ABCE96CA9C9454553181B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108FD5D31F9F36182E54C9CE5F6D58D1 /* Pods-Snapstahp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Snapstahp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Snapstahp/Pods-Snapstahp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Snapstahp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76274250C6AA83C660F7B1FF456BB35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8640050EFF6DFCF01E35199652FE29C8 /* Pods-SnapstahpTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SnapstahpTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SnapstahpTests/Pods-SnapstahpTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SnapstahpTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D10A8E78C8033B32BD526A8FF8F064F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE6C3FE1C7365B46E076F37A882118A /* Pods-SnapstahpUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SnapstahpUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SnapstahpUITests/Pods-SnapstahpUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SnapstahpUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B38F638C188E2AB9E43CEEECBAB08985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A9201BC1E4AF14BFEC7556E986E90D8 /* R.swift.Library.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift.Library/R.swift.Library-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/R.swift.Library/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/R.swift.Library/R.swift.Library.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Rswift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6544A1F1139551CE6C6C9B43404CFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE8E3B1716FEC157AE9EA5554507C773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CEEB79E94585A4C03CBEEC29DDD9A4 /* Pods-SnapstahpUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SnapstahpUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SnapstahpUITests/Pods-SnapstahpUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SnapstahpUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE16AC72762C01C5DC595053F1F2EF4 /* Debug */,
+				C6544A1F1139551CE6C6C9B43404CFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E6A5B07A5C93FE3B0C309C2E965E4E6 /* Build configuration list for PBXNativeTarget "Pods-SnapstahpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76274250C6AA83C660F7B1FF456BB35E /* Debug */,
+				4174516B9D21CF78C02BEDDAD291DDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E750403F4496B3174CCE5D6168328060 /* Build configuration list for PBXNativeTarget "R.swift.Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3AF2903DCFD6E84C0B8E0062067437 /* Debug */,
+				B38F638C188E2AB9E43CEEECBAB08985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3389C59FAF7C282A330AFEF70604FAE /* Build configuration list for PBXNativeTarget "Pods-SnapstahpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D10A8E78C8033B32BD526A8FF8F064F /* Debug */,
+				DE8E3B1716FEC157AE9EA5554507C773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C28154A0842AC5890D8D2517206E7B /* Build configuration list for PBXNativeTarget "Pods-Snapstahp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607094D63ABCE96CA9C9454553181B7D /* Debug */,
+				5A5CB9E92277C942B998585D57ED942C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
